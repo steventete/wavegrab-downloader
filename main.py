@@ -57,7 +57,7 @@ def build_ydl_options(folder: str) -> dict:
             "preferredquality": "192"
         }],
         "noplaylist": True,
-        "quiet": True,  # Suppress yt_dlp internal logs.
+        "quiet": False,
         "progress_hooks": [progress_hook],
     }
 
